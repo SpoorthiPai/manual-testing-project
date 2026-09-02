@@ -3,8 +3,6 @@
 ## Overview
 This project demonstrates manual testing of the CuraHealthcare Service demo application, a healthcare appointment booking system. The goal was to design and execute test cases covering the Login and Make Appointment workflows, and to identify, document, and report real defects using standard QA practices.
 
-**Application under test:** https://katalon-test.s3.amazonaws.com/aut/html/index.html
-
 ## Scope
 - Login functionality (username/password validation)
 - Appointment booking functionality (Facility selection, Visit Date, Comment, Hospital Readmission, Healthcare Program)
@@ -30,7 +28,7 @@ The application does not validate the Visit Date field against the current date,
 - **Severity:** Medium
 - **Priority:** High
 
-Full details in [`bug_report_BUG_01.md`](./bug_report_BUG_01.md), with supporting screenshot in the `Screenshots` folder.
+Full details in [`Bug_Report.xlsx`](./Bug_Report.xlsx), with supporting screenshot in the `Screenshots` folder.
 
 ## Files in this repository
 - `test_cases_login_appointment.xlsx` — full set of 12 test cases with steps, expected results, actual results, and pass/fail status
